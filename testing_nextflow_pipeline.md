@@ -10,6 +10,13 @@ You will be provide with a username and password during the session.
 
 `module load anaconda3/anaconda3`
 
+For first time use of conda, you need to initialize conda by running"
+
+`conda init bash`
+
+then exit shell by typing `exit` then log back in for the changes to take effect. 
+
+
 #### 3. Activate Qiime conda environment
 
 `conda activate /opt/apps/anaconda3/envs/qiime2/`
