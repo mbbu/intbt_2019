@@ -6,3 +6,6 @@ names(derepRs) <- list.sample.names
 
 dadaR <- dada(derepRs, err=errR, multithread=TRUE)
 dadaF <- dada(derepFs, err=errF, multithread=TRUE)
+
+# add merge command pairs
+merge.reads <- mergePairs(dadaF,derepFs , dadaR, derepRs, verbose=TRUE)
