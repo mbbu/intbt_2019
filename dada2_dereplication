@@ -1,0 +1,11 @@
+derepFs <- derepFastq(filt.dataF, verbose=TRUE)
+derepRs <- derepFastq(filt.dataR, verbose=TRUE)
+# Name the derep-class objects by the sample names
+names(derepFs) <- list.sample.names
+names(derepRs) <- list.sample.names
+
+dadaR <- dada(derepRs, err=errR, multithread=TRUE)
+dadaF <- dada(derepFs, err=errF, multithread=TRUE)
+
+# add merge command pairs
+merge.reads <- mergePairs(dadaF,derepFs , dadaR, derepRs, verbose=TRUE)
