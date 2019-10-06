@@ -58,33 +58,33 @@ This training offers a step-by-step dada2 tutorial on how to analyze 16S rRNA mi
 
 To run the step-by-step tutorial, you require R and RStudio and the R packages listed above installed. The dada2 tutorial starts in Module 5 and continues in Module 6 on downstream analysis. The scripts and required data for the tutorials are linked in the section below.
 
-To run dada2 nextflow pipeline on a computer cluster, follow the instructions outlined on [this document] for software set up and running the pipeline. It involves setting up Singularity, R and RStudio, and Nextflow. For the training at ICIPE, please follow the instructions outlined [here](https://github.com/mbbu/intbt_2019/blob/master/testing_nextflow_pipeline.md). 
+To run dada2 nextflow pipeline on a computer cluster, follow the instructions outlined on [this document](https://github.com/mbbu/intbt_2019/blob/master/16S-int-bt-software-setup-and-testing-v1.pdf) for software set up and running the pipeline. It involves setting up Singularity, R and RStudio, and Nextflow. For the training at ICIPE, please follow the instructions outlined [here](https://github.com/mbbu/intbt_2019/blob/master/testing_nextflow_pipeline.md). 
 
 ### Links to resources referenced in modules
 
 **Module 1: Introduction to Linux and R**
 
-[Module resource](https://kviljoen.github.io/H3ABioNet_R/)
-Rstudio [website](https://rstudio.com/)
-[RStudio Course Material](https://datacarpentry.org/R-ecology-lesson/00-before-we-start.html#knowing_your_way_around_rstudio)
-[Debugging code in RStudio](https://resources.rstudio.com/wistia-rstudio-essentials-2/rstudioessentialsprogrammingpart2-2)
-[Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html)
-[Assignment operators in R](https://renkun.me/2014/01/28/difference-between-assignment-operators-in-r/)
-[code styling](https://style.tidyverse.org)
-[R Data types and data structures](https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures/)
-[Good practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
+[Module resource](https://kviljoen.github.io/H3ABioNet_R/)  
+Rstudio [website](https://rstudio.com/)  
+[RStudio Course Material](https://datacarpentry.org/R-ecology-lesson/00-before-we-start.html#knowing_your_way_around_rstudio)  
+[Debugging code in RStudio](https://resources.rstudio.com/wistia-rstudio-essentials-2/rstudioessentialsprogrammingpart2-2)  
+[Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html)  
+[Assignment operators in R](https://renkun.me/2014/01/28/difference-between-assignment-operators-in-r/)  
+[code styling](https://style.tidyverse.org)  
+[R Data types and data structures](https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures/)  
+[Good practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)  
 
 **Module 5: 16S analysis pipeline**
 
-[dada2 tutorial site](https://iallali.github.io/DADA2_pipeline/16SrRNA_DADA2_pipeline.html)
-[dada2 tutorial R script]
-Required tutorial data: http://web.cbio.uct.ac.za/~gerrit/downloads/dog_stool_full.tgz
-RefSeq DB: https://zenodo.org/record/3266798/files/RefSeq-RDP16S_v3_May2018.fa.gz
+[dada2 tutorial site](https://iallali.github.io/DADA2_pipeline/16SrRNA_DADA2_pipeline.html)  
+[dada2 tutorial R script](https://github.com/mbbu/intbt_2019/blob/master/Module_5_16S_analysis_pipeline/dada2_pipeline_tutorial.R)  
+Required tutorial data: http://web.cbio.uct.ac.za/~gerrit/downloads/dog_stool_full.tgz  
+RefSeq DB: https://zenodo.org/record/3266798/files/RefSeq-RDP16S_v3_May2018.fa.gz  
 
 **Module 6: Downstream analysis in R**
 
-[Module resource](https://kviljoen.github.io/H3ABioNet_16S/)
-[Downstream analysis tutorial R script]
+[Module resource](https://kviljoen.github.io/H3ABioNet_16S/)  
+[Downstream analysis tutorial R script](https://github.com/mbbu/intbt_2019/blob/master/Module_6_Nextflow_and_Downstream_analysis_in_R/Session_2_Importing_data_into_R/Dog_microbiome_tutorial_dada2.R)  
 
 
   
