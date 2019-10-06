@@ -56,7 +56,7 @@ This resource assumes that you are running Linux with R and RStudio installed. A
 
 This training offers a step-by-step dada2 tutorial on how to analyze 16S rRNA microbiome data (covered in Module 5 and 6) as well as automation of the analysis using Nextflow workflow language and containerized images (Module 6 Session 1), before downstream statistical analysis in R.
 
-To run the step-by-step tutorial, you require R and RStudio and the R packages listed above installed. The dada2 tutorial starts in Module 5 and continues in Module 6 on downstream analysis. The scripts and required data for the tutorials are linked in the section below.
+To run the [step-by-step tutorial](https://github.com/mbbu/intbt_2019/blob/master/Module_5_16S_analysis_pipeline/dada2_pipeline_tutorial.R), you require R and RStudio and the R packages listed above installed. The dada2 tutorial starts in Module 5 and continues in Module 6 on [downstream analysis](https://github.com/mbbu/intbt_2019/blob/master/Module_6_Nextflow_and_Downstream_analysis_in_R/Session_2_Importing_data_into_R/Dog_microbiome_tutorial_dada2.R). The scripts and required data for the tutorials are also linked in the section below.
 
 To run dada2 nextflow pipeline on a computer cluster, follow the instructions outlined on [this document](https://github.com/mbbu/intbt_2019/blob/master/16S-int-bt-software-setup-and-testing-v1.pdf) for software set up and running the pipeline. It involves setting up Singularity, R and RStudio, and Nextflow. For the training at ICIPE, please follow the instructions outlined [here](https://github.com/mbbu/intbt_2019/blob/master/testing_nextflow_pipeline.md). 
 
