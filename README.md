@@ -73,13 +73,24 @@ To run dada2 nextflow pipeline on a computer cluster, follow the instructions ou
 * [code styling](https://style.tidyverse.org)  
 * [R Data types and data structures](https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures/)  
 * [Good practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)  
+**Module4: 16S rRNA sequencing bioinformatics pipeline theory**
+* [FASTQC analysis](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+* [H3ABioNet 16S rRNA SOP](https://h3abionet.github.io/H3ABionet-SOPs/16s-rRNA-1-0.html)
+* [Mothur](https://www.mothur.org/wiki/MiSeq_SOP)
+* [QIIME2](https://qiime2.org/)
+* [Qiime2 tutorial](https://docs.qiime2.org/2019.7/tutorials/)
+* [DADA2 Pipeline tutorial](https://benjjneb.github.io/dada2/tutorial.html)
+* [UPARSE](http://www.drive5.com/uparse/)
+* [IM Tornado](https://github.com/pjeraldo/imtornado2)
+* [FROGS](https://github.com/geraldinepascal/FROGS)
+* [VSEARCH](https://github.com/torognes/vsearch)
 
 **Module 5: 16S analysis pipeline**
 
 * [dada2 tutorial site](https://iallali.github.io/DADA2_pipeline/16SrRNA_DADA2_pipeline.html)  
 * [dada2 tutorial R script](https://github.com/mbbu/intbt_2019/blob/master/Module_5_16S_analysis_pipeline/dada2_pipeline_tutorial.R)  
 * Required tutorial data: http://web.cbio.uct.ac.za/~gerrit/downloads/dog_stool_full.tgz  
-* RefSeq DB: https://zenodo.org/record/3266798/files/RefSeq-RDP16S_v3_May2018.fa.gz  
+* RefSeq-RDP 16S database: https://zenodo.org/record/3266798/files/RefSeq-RDP16S_v3_May2018.fa.gz  
 
 **Module 6: Downstream analysis in R**
 
