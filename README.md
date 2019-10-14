@@ -72,8 +72,10 @@ To run dada2 nextflow pipeline on a computer cluster, follow the instructions ou
 * [Assignment operators in R](https://renkun.me/2014/01/28/difference-between-assignment-operators-in-r/)  
 * [code styling](https://style.tidyverse.org)  
 * [R Data types and data structures](https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures/)  
-* [Good practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)  
+* [Good practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
+
 **Module4: 16S rRNA sequencing bioinformatics pipeline theory**
+
 * [FASTQC analysis](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 * [H3ABioNet 16S rRNA SOP](https://h3abionet.github.io/H3ABionet-SOPs/16s-rRNA-1-0.html)
 * [Mothur](https://www.mothur.org/wiki/MiSeq_SOP)
