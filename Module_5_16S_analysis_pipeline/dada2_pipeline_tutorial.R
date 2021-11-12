@@ -100,7 +100,7 @@ seqtab <- makeSequenceTable(merge.reads)
 dim(seqtab)
 
 # inspect the distribution of sequence lengths
-table(nchar(getSeqences(seqtab)))
+table(nchar(getSequences(seqtab)))
 
 ####################################################################################
 # STEP 7: Remove Chimeras
